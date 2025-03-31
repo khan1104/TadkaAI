@@ -12,11 +12,6 @@ const Tablayout = () => {
           backgroundColor: "#FFF8E1", 
           height: 75,
           paddingBottom:5,
-          // elevation: 5,
-          // shadowColor: "#000",
-          // shadowOffset: { width: 0, height: 2 },
-          // shadowOpacity: 0.2,
-          // shadowRadius: 4,
           borderTopColor:"#FF9800",
           borderTopWidth:4
         },
