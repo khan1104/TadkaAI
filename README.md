@@ -1,6 +1,18 @@
-# Welcome to your Expo app 👋
+#Tadka AI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+TadkaAI is an AI-powered recipe recommendation application designed to simplify cooking 
+by suggesting recipes based on the ingredients users have. TadkaAI provides personalized 
+and efficient meal suggestions, reducing food waste and enhancing the cooking experience. 
+The application features an intuitive Chabot interface, allowing users to interact seamlessly 
+and receive instant recipe recommendations. Additionally, TadkaAI ensures a visually 
+engaging user experience with attractive food-related UI elements and animations. Users can 
+also listen to step-by-step cooking instructions, making the process even more convenient, 
+especially for hands-free cooking. The integration of Gemini AI enables precise and diverse 
+recipe suggestions, including cooking time, detailed instructions, and ingredient details. 
+TadkaAI aims to make home cooking more accessible, enjoyable, and efficient for users of 
+all skill levels  👋
+
+
 
 ## Get started
 
