@@ -51,7 +51,7 @@ const forgot = () => {
 
     const sendDataToBackend = async () => {
         try {
-            const response = await axios.post('http://192.168.163.3:5000/send-otp', { mail });
+            const response = await axios.post('http://192.168.31.232:5000/send-otp', { mail });
             console.log('Response from backend:', response.data);
             setBackendOtp(response.data.message);
         } catch (error) {

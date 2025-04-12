@@ -21,7 +21,7 @@ export default function Chat() {
     setMessages([...messages, userMessage]);
 
     try {
-      const response = await axios.post("http://192.168.163.3:5000/generate", { input });
+      const response = await axios.post("http://192.168.31.232:5000/generate", { input });
       const botMessage = { id: Date.now().toString(), text: response.data.response, sender: "bot" };
       setMessages((prevMessages) => [...prevMessages, botMessage]);
     } catch (error) {

@@ -35,7 +35,7 @@ const OtpScreen = () => {
     //backend
     const sendDataToBackend = async () => {
         try {
-            const response = await axios.post('http://192.168.163.3:5000/send-otp', {
+            const response = await axios.post('http://192.168.31.232:5000/send-otp', {
                 mail: mail,
             });
             console.log('Response from backend:', response.data);

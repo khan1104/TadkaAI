@@ -26,7 +26,7 @@ const Home = () => {
     // Function to fetch recipes
     const fetchRecipes = async () => {
         try {
-            const end=`http://192.168.163.3:5000/${Endpoint[isSelected]}`;
+            const end=`http://192.168.31.232:5000/${Endpoint[isSelected]}`;
             const response = await fetch(end); 
             const data = await response.json();
         

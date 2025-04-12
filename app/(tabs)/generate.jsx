@@ -30,7 +30,7 @@ const Generate = () => {
     }
 
     try {
-      const response = await axios.post('http://192.168.163.3:5000/getRecipes', {
+      const response = await axios.post('http://192.168.31.232:5000/getRecipes', {
         user_input: prompt,
       });
       // const new_data = JSON.parse(response.data.data)
